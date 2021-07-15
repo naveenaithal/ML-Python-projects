@@ -1,0 +1,28 @@
+{"intents": [
+  {"tag": "greetings",
+    "patterns":["hi","hello","hey","good day","Greetings","How is it going?.","what's up"],
+    "responses": ["Hello!","Hi!","What can i do for you"]
+  },
+  {"tag":"goodbye",
+    "patterns": ["cya","see you later","im leaving ","have a good day","cao","bye","see ya"],
+    "responses": ["sad to see you go ","talk to you later","Good bye","have a nice day!"]
+  },
+  {"tag": "age",
+    "patterns": ["how old are you","what is your age","age?."],
+    "responses": ["My onwer Naveen is 21 yearsd old!","21 years!"]
+  },
+  {"tag": "name",
+    "patterns": ["what is your name?","can you tell your name","who are you","what should i call you"],
+    "responses": ["Im bot","i'm Bot assistant of Naveen!"]
+
+  },
+  {"tag":"hours",
+    "patterns": ["when are you guys open","whats your workin hours?.","what is your work time"],
+    "responses": ["24/7","always available 24/7"]
+
+  },
+  {"tag":"intrest",
+    "patterns": ["What is your intresting subject?.","what is your intresting topic","what is your intrest?."],
+    "responses": ["Machine learning","python","Deep learning","web Development"]
+  }
+]}
